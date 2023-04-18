@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.center {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button {
+  margin: 0.5rem;
+  height: 2rem;
+  width: 4rem;
+}

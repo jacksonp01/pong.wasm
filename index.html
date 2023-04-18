@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WASM Testing</title>
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <script type="text/javascript" src="https://livejs.com/live.js"></script>
+</head>
+
+<body>
+  <div class="bar">
+    <h1 id="player1">0</h1>
+    <h1 id="player2">0</h1>
+  </div>
+  <canvas id="app" class="wasm-canvas" width=800 height=600></canvas>
+  <div class="center">
+    <button onclick="wasm.resetScore()" class="reset-button">Reset</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
